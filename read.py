@@ -11,7 +11,7 @@ print(root.nodeValue)
 print(root.nodeType)
 print(root.ELEMENT_NODE)
 #%%
-tree = ET.ElementTree(file='a.xml')
+tree = ET.ElementTree(file='b.xml')
 root = tree.getroot()
 
 #%%
